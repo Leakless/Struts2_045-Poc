@@ -78,3 +78,5 @@ python S2_045_thread.py（填写url.txt后运行）
 #### 利用搜索引擎批量检测脚本
 想要采集网站中带.action/.do地址的，请看：[Search_S2_045](https://github.com/tengzhangchao/Struts2_045-Poc/tree/master/Search_S2_045)
 
+
+更多请参考博客：[nMask](http://thief.one/2017/03/07/Struts2-045%E6%BC%8F%E6%B4%9E/)
