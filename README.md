@@ -71,5 +71,8 @@ tmp
 python S2_045_thread.py（填写url.txt后运行）
 
 ```bash
-填写url.txt文件，每行一个url地址，运行完以后会生成一个result.txt文件存放存在漏洞的url
+填写url.txt文件，每行一个url地址(url中含.action/.do的地址)，运行完以后会生成一个result.txt文件存放存在漏洞的url
 ```
+
+想要采集网站中带.action/.do地址的，请看：[Search_S2_045](https://github.com/tengzhangchao/Struts2_045-Poc/tree/master/Search_S2_045)
+
