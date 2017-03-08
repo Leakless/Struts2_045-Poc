@@ -4,6 +4,8 @@
 通过百度搜索，搜索关键词，获取baidu_link
 '''
 __Date__="20170224"
+__author__="nMask"
+__Blog__="http://thief.one"
 
 import requests
 import urllib
