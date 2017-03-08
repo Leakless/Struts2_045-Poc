@@ -59,5 +59,5 @@ class getbaidulink:
 
 if __name__=="__main__":
 	cur=getbaidulink()
-	list_url=cur.run(keyword='inurl:"ajm" 百家乐',page=0,one_proxy="")
+	list_url=cur.run(keyword='inurl:".action"',page=0,one_proxy="")
 	print list_url
