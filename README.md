@@ -4,7 +4,7 @@
 python s2_045.py http://xxx.com/a.action
 
 ```bash
->python s2_045_cmd.py http://xxx.com/a.action
+>python s2_045.py http://xxx.com/a.action
 [Loopholes exist] http://xxx.com/a.action
 ```
 #### 漏洞利用POC（cmd版）
