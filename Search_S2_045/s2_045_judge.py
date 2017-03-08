@@ -32,7 +32,7 @@ def poc(url):
 
 if __name__=="__main__":
 	f=open("result.txt","a")
-	url_list=[i.replace("\n","") for i in open("url.txt","r").readlines()]
+	url_list=[i.replace("\n","") for i in open("result_all.txt","r").readlines()]
 	for url in url_list:
 		threading.Thread(target=poc,args=(url,)).start()
 		while 1:
