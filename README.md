@@ -1,4 +1,4 @@
-### USage
+### Usage
 
 #### 检测漏洞POC
 python s2_045.py http://xxx.com/a.action
