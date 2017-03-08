@@ -1,5 +1,10 @@
 #! -*- coding:utf-8 -*-
 
+__author__="nMask"
+__Blog__="http://thief.one"
+__Date__="20170307"
+
+
 import urllib2
 from poster.encode import multipart_encode
 from poster.streaminghttp import register_openers

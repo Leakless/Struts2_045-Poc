@@ -15,7 +15,7 @@ def poc(url):
 
     return body
 
-url="http://job.10086.cn/company/anouncement/showAnouncement.action"
+# url="http://job.10086.cn/company/anouncement/showAnouncement.action"
 url=sys.argv[1]
 body=poc(url)
 if "nMask" in body:
